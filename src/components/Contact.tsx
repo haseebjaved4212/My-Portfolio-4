@@ -25,10 +25,10 @@ export function Contact() {
     try {
       // NOTE: Ensure these variables are set in your environment
       await emailjs.sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID || import.meta.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '',
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID || import.meta.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || '',
+        import.meta.env.VITE_EMAILJS_SERVICE_ID || import.meta.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || 'NEXT_PUBLIC_EMAILJS_SERVICE_ID',
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID || import.meta.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || 'NEXT_PUBLIC_EMAILJS_TEMPLATE_ID',
         formRef.current,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY || import.meta.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || ''
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY || import.meta.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || 'NEXT_PUBLIC_EMAILJS_PUBLIC_KEY'
       );
       setSubmitStatus('success');
       formRef.current.reset();
