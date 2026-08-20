@@ -50,3 +50,4 @@ body {
 ::-webkit-scrollbar-thumb {
   @apply bg-border rounded-full hover:bg-muted;
 }
+
