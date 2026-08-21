@@ -2,20 +2,20 @@
 
 @layer base {
   :root {
-    --bg: #FBFAF7;
-    --surface: #FFFFFF;
-    --text-primary: #1C1B18;
-    --text-muted: #7A7870;
-    --accent: #C9A96E;
-    --border: #E5E4E0;
+    --bg: #fbfaf7;
+    --surface: #ffffff;
+    --text-primary: #1c1b18;
+    --text-muted: #7a7870;
+    --accent: #c9a96e;
+    --border: #e5e4e0;
   }
 
   .dark {
-    --bg: #0B0B0F;
+    --bg: #0b0b0f;
     --surface: #151519;
-    --text-primary: #F0EFEA;
-    --text-muted: #8E8D96;
-    --border: #2A2A35;
+    --text-primary: #f0efea;
+    --text-muted: #8e8d96;
+    --border: #2a2a35;
   }
 }
 
@@ -31,9 +31,15 @@
   --color-border: var(--border);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-bg text-primary font-sans antialiased;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 ::selection {
@@ -50,4 +56,3 @@ body {
 ::-webkit-scrollbar-thumb {
   @apply bg-border rounded-full hover:bg-muted;
 }
-
