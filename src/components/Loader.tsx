@@ -2,11 +2,11 @@ import { motion, AnimatePresence } from "motion/react";
 import { useEffect, useState } from "react";
 
 const greetings = [
-  "مرحبًا",      // Arabic
-  "Hello",       // English
-  "你好",        // Chinese
-  "Привет",      // Russian
-  "こんにちは"     // Japanese
+  "السلام عليكم", // Arabic
+  "Welcome", // English
+  "你好", // Chinese
+  "Привет", // Russian
+  "こんにちは", // Japanese
 ];
 
 export function Loader({ onComplete }: { onComplete: () => void }) {
