@@ -30,6 +30,7 @@ export const skills = {
   other: [
     "Git",
     "Postman",
+    "Docker",
     "DevOps",
     "Computer Networking",
     "AI Automation"
@@ -60,7 +61,7 @@ export const projects = [
     ],
     github: "https://github.com/haseebjaved4212/AirPods-Clone-Controle",
     demo: "",
-    image: "📱", // Using emoji/icon or visual abstraction instead of an image as we don't have real assets
+    image: "📱",
   },
   {
     id: "02",
@@ -75,7 +76,7 @@ export const projects = [
       "Statistics",
       "Visual charts",
     ],
-    technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDB"], // Assuming standard tech stack based on description
+    technologies: ["React", "TypeScript", "Python", "FastAPI", "PostgreSQL"],
     github: "https://github.com/haseebjaved4212/AniTrack.git",
     demo: "",
     image: "📺",
@@ -138,7 +139,7 @@ export const projects = [
       "Secure authentication",
       "Modular architecture",
     ],
-    technologies: ["HTML", "CSS", "Django", "Django Templates"],
+    technologies: ["HTML", "CSS", "Django", "Django Templates", "Python"],
     github: "https://github.com/haseebjaved4212/Job-Portal",
     demo: "",
     image: "💼",
@@ -154,7 +155,7 @@ export const projects = [
       "Secure authentication",
       "Product management",
     ],
-    technologies: ["React 19", "Django REST Framework", "Linux VPS", "SSL"],
+    technologies: ["React 19", "Django REST Framework", "Python", "Linux VPS", "SSL"],
     github: "https://github.com/haseebjaved4212/ClickMart.git ",
     demo: "",
     image: "🛍️",
