@@ -149,7 +149,7 @@ export const projects = [
       "Secure authentication",
       "Dynamic In-Transit Recalculation",
     ],
-    technologies: ["Java", "Kotlin", "Android", "", "Jetpack Compose", "Google Maps API", "ML Models"],
+    technologies: ["Java", "Kotlin", "Android", "Jetpack Compose", "Google Maps API", "ML Models"],
     github: "https://github.com/rahlishah20/Raahi.git",
     demo: "",
     image: "🗺️",
