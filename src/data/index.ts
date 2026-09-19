@@ -28,8 +28,8 @@ export const skills = {
     "SQL",
     "PostgreSQL",
     "MongoDB",
-    "Supabase",
     "SQLite",
+    "Supabase",
     "Firebase",
     "Redis"
   ],
