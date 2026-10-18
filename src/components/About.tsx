@@ -23,6 +23,9 @@ export function About() {
             <p className="mb-6 text-muted">
               My engineering approach is rooted in understanding the full lifecycle of a product. I don't just build isolated components; I design systems that communicate seamlessly, scale effectively, and deliver exceptional user experiences. 
             </p>
+            <p className="mb-6 text-muted">
+              I am a Software Engineer passionate about building production-ready digital products that solve real-world problems. With expertise in modern frontend technologies, scalable backend architectures, and AI-powered applications, I turn complex ideas into practical, reliable, and user-focused solutions. My experience spans full-stack web development, RESTful API design, cross-platform applications, and intelligent AI integrations. From developing safety-aware navigation systems to building AI-driven learning platforms and open-source tools, I enjoy taking projects from concept to completion with a strong focus on clean architecture, performance, and maintainability. I believe great software goes beyond writing code — it's about understanding real needs, solving meaningful problems, and creating products that make a difference.
+            </p>
             <p className="text-muted">
               Whether I'm architecting a decoupled React/Django e-commerce platform, integrating Retrieval-Augmented Generation (RAG) for customer support agents, or crafting pixel-perfect interfaces, my goal remains the same: writing clean, maintainable code that solves real problems.
             </p>
